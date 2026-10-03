@@ -1,0 +1,1 @@
+# Inicializador de la carpeta de minijuegos
