@@ -1,0 +1,38 @@
+2026-09-28 20:28:51,141 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 20:28:51,141 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-09-28 21:03:25,512 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 21:03:25,513 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-09-28 21:05:53,337 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 21:05:53,337 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-09-28 21:19:31,399 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 21:19:31,399 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-09-28 22:10:37,357 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 22:10:37,357 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-09-28 22:10:37,456 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='discord-ext-tasks: UtilityCog.reminder_delivery' coro=<Loop._loop() done, defined at c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\.venv\Lib\site-packages\discord\ext\tasks\__init__.py:208> exception=RuntimeError('Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method')>
+Traceback (most recent call last):
+  File "c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\.venv\Lib\site-packages\discord\ext\tasks\__init__.py", line 210, in _loop
+  File "c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\.venv\Lib\site-packages\discord\ext\tasks\__init__.py", line 194, in _call_loop_function
+  File "c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\cogs\utility.py", line 59, in before_reminder_delivery
+  File "c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\.venv\Lib\site-packages\discord\client.py", line 1230, in wait_until_ready
+RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+2026-09-28 22:10:37,457 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='discord-ext-tasks: EconomyCog.market_tick' coro=<Loop._loop() done, defined at c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\.venv\Lib\site-packages\discord\ext\tasks\__init__.py:208> exception=RuntimeError('Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method')>
+Traceback (most recent call last):
+  File "c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\.venv\Lib\site-packages\discord\ext\tasks\__init__.py", line 210, in _loop
+  File "c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\.venv\Lib\site-packages\discord\ext\tasks\__init__.py", line 194, in _call_loop_function
+  File "c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\cogs\economy.py", line 27, in before_market_tick
+  File "c:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\.venv\Lib\site-packages\discord\client.py", line 1230, in wait_until_ready
+RuntimeError: Client has not been properly initialised. Please use the login method or asynchronous context manager before calling this method
+2026-09-28 22:44:47,304 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 22:44:47,305 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-09-28 22:46:08,064 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 22:46:08,064 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-09-28 23:36:12,071 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 23:36:12,072 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-09-28 23:36:49,062 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-09-28 23:36:49,062 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-10-07 19:05:54,533 [WARNING] asyncio: Executing <Task pending name='Task-45' coro=<DatabaseTests.asyncSetUp() running at C:\Users\Usuario\Documents\Alejandro\Personal\Python\Bot pajaro\tests\test_database.py:19> wait_for=<Future pending cb=[Task.task_wakeup()] created at c:\python314\Lib\asyncio\base_events.py:459> cb=[_run_until_complete_cb() at c:\python314\Lib\asyncio\base_events.py:181] created at c:\python314\Lib\asyncio\runners.py:109> took 0.107 seconds
+2026-10-07 19:08:28,553 [INFO] asyncio: <Server sockets=(<asyncio.TransportSocket fd=500, family=2, type=1, proto=6, laddr=('127.0.0.1', 61380)>,)> is serving
+2026-10-07 19:09:29,068 [INFO] asyncio: <Server sockets=(<asyncio.TransportSocket fd=824, family=2, type=1, proto=6, laddr=('127.0.0.1', 61403)>,)> is serving
+2026-10-07 19:10:56,700 [INFO] asyncio: <Server sockets=(<asyncio.TransportSocket fd=320, family=2, type=1, proto=6, laddr=('127.0.0.1', 53457)>,)> is serving

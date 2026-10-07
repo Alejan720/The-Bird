@@ -1,0 +1,4 @@
+aiosqlite>=0.20,<1.0
+discord.py[voice]>=2.4,<3.0
+python-chess>=1.999,<2.0
+python-dotenv>=1.0,<2.0
